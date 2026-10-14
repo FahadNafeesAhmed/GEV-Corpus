@@ -1,0 +1,498 @@
+{
+  "disclaimer": "AI initial research notes only — not a competition submission",
+  "question": "upgrade_bridge",
+  "title": "Existing-fleet upgrade scope → 2027 EBITDA bridge inputs",
+  "model": "qwen3:8b",
+  "db": "data\\gev.db",
+  "ts": "2026-09-21T16:36:15.662578+00:00",
+  "elapsed_s": 35.76,
+  "n_evidence_hits": 40,
+  "deterministic_flags": {},
+  "extraction": {
+    "claims": [
+      {
+        "claim": "GE Vernova expects to secure $100 billion in cumulative future services revenue by the end of 2027.",
+        "quote": "projected that the company expects to secure $100 billion in cumulative future services revenue by the end of 2027.",
+        "support": "32",
+        "confidence": "high",
+        "verified": true
+      },
+      {
+        "claim": "Southern Power's Franklin and Wansley facilities will add 400 MW through turbine upgrades.",
+        "quote": "add 400 MW",
+        "support": "8",
+        "confidence": "high",
+        "verified": false,
+        "reject_reason": "quote_not_in_evidence"
+      },
+      {
+        "claim": "InterGen's Coryton plant upgrades added 85 MW via GT26 turbine modernization.",
+        "quote": "add 85 MW",
+        "support": "24",
+        "confidence": "high",
+        "verified": false,
+        "reject_reason": "quote_not_in_evidence"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Franklin & Wansley Facilities Upgrade",
+        "mw": "400",
+        "timing": "Q2 2029 - Q1 2031",
+        "gev_scope": "Turbine replacement and capacity expansion"
+      },
+      {
+        "name": "Coryton Plant GT26 Modernization",
+        "mw": "85",
+        "timing": "Completed 2026",
+        "gev_scope": "Turbine retrofit and performance optimization"
+      },
+      {
+        "name": "Thisvi Plant Retrofit",
+        "mw": "1",
+        "timing": "N/A",
+        "gev_scope": "FlameSheet retrofit for efficiency improvements"
+      }
+    ],
+    "unresolved": [
+      "FlameSheet retrofit details (entry 23) lack MW specifications",
+      "Toktogul Modernization (entry 13) lacks MW quantification",
+      "Nicor Gas capital investments (entry 21) not tied to GEV revenue"
+    ],
+    "summary": "GE Vernova's gas fleet modernization includes 400 MW upgrades for Southern Power (2029-2031), 85 MW enhancements for InterGen (2026), and 1 MW retrofit for Thisvi. The company projects $100B in cumulative services revenue by 2027. Unresolved details include specific MW for some projects and revenue linkage to customer capital investments.",
+    "claims_verified": [
+      {
+        "claim": "GE Vernova expects to secure $100 billion in cumulative future services revenue by the end of 2027.",
+        "quote": "projected that the company expects to secure $100 billion in cumulative future services revenue by the end of 2027.",
+        "support": "32",
+        "confidence": "high",
+        "verified": true
+      }
+    ],
+    "claims_rejected": [
+      {
+        "claim": "Southern Power's Franklin and Wansley facilities will add 400 MW through turbine upgrades.",
+        "quote": "add 400 MW",
+        "support": "8",
+        "confidence": "high",
+        "verified": false,
+        "reject_reason": "quote_not_in_evidence"
+      },
+      {
+        "claim": "InterGen's Coryton plant upgrades added 85 MW via GT26 turbine modernization.",
+        "quote": "add 85 MW",
+        "support": "24",
+        "confidence": "high",
+        "verified": false,
+        "reject_reason": "quote_not_in_evidence"
+      }
+    ],
+    "audit": {
+      "n_claims_in": 3,
+      "n_verified": 1,
+      "n_rejected": 2
+    }
+  },
+  "evidence_index": [
+    {
+      "i": 1,
+      "id": "tr-124",
+      "form": "transcript",
+      "filing_date": "",
+      "section": "demand",
+      "accession": "",
+      "source": "transcript",
+      "chars": 188
+    },
+    {
+      "i": 2,
+      "id": "tr-137",
+      "form": "transcript",
+      "filing_date": "",
+      "section": "delivery_timing",
+      "accession": "",
+      "source": "transcript",
+      "chars": 139
+    },
+    {
+      "i": 3,
+      "id": "tr-136",
+      "form": "transcript",
+      "filing_date": "",
+      "section": "delivery_timing",
+      "accession": "",
+      "source": "transcript",
+      "chars": 201
+    },
+    {
+      "i": 4,
+      "id": "tr-120",
+      "form": "transcript",
+      "filing_date": "",
+      "section": "delivery_timing",
+      "accession": "",
+      "source": "transcript",
+      "chars": 99
+    },
+    {
+      "i": 5,
+      "id": "tr-180",
+      "form": "transcript",
+      "filing_date": "",
+      "section": "capacity",
+      "accession": "",
+      "source": "transcript",
+      "chars": 125
+    },
+    {
+      "i": 6,
+      "id": "tr-179",
+      "form": "transcript",
+      "filing_date": "",
+      "section": "capacity",
+      "accession": "",
+      "source": "transcript",
+      "chars": 181
+    },
+    {
+      "i": 7,
+      "id": "proj-302",
+      "form": "projects",
+      "filing_date": "2026-04-30",
+      "section": "Franklin and Wansley natural gas facilities turbine upgrades",
+      "accession": "",
+      "source": "projects",
+      "chars": 312
+    },
+    {
+      "i": 8,
+      "id": "proj-301",
+      "form": "projects",
+      "filing_date": "2026-04-30",
+      "section": "Wansley Natural Gas Facility Upgrade",
+      "accession": "",
+      "source": "projects",
+      "chars": 588
+    },
+    {
+      "i": 9,
+      "id": "proj-300",
+      "form": "projects",
+      "filing_date": "2026-04-30",
+      "section": "Franklin Natural Gas Facility Upgrade",
+      "accession": "",
+      "source": "projects",
+      "chars": 586
+    },
+    {
+      "i": 10,
+      "id": "proj-295",
+      "form": "projects",
+      "filing_date": "2026-04-30",
+      "section": "Nicor Gas capital investments",
+      "accession": "",
+      "source": "projects",
+      "chars": 252
+    },
+    {
+      "i": 11,
+      "id": "proj-255",
+      "form": "projects",
+      "filing_date": "2026-05-08",
+      "section": "Upgrades at existing natural gas-fueled plants",
+      "accession": "",
+      "source": "projects",
+      "chars": 283
+    },
+    {
+      "i": 12,
+      "id": "proj-242",
+      "form": "projects",
+      "filing_date": "2026-05-23",
+      "section": "Morris Cogen",
+      "accession": "",
+      "source": "projects",
+      "chars": 236
+    },
+    {
+      "i": 13,
+      "id": "proj-211",
+      "form": "projects",
+      "filing_date": "2026-06-22",
+      "section": "Toktogul Modernization",
+      "accession": "",
+      "source": "projects",
+      "chars": 219
+    },
+    {
+      "i": 14,
+      "id": "proj-181",
+      "form": "projects",
+      "filing_date": "2026-07-22",
+      "section": "Amarillo, Texas turbine components remanufacturing upgrade",
+      "accession": "",
+      "source": "projects",
+      "chars": 386
+    },
+    {
+      "i": 15,
+      "id": "proj-180",
+      "form": "projects",
+      "filing_date": "2026-07-22",
+      "section": "Schenectady, New York gas turbine facility upgrade",
+      "accession": "",
+      "source": "projects",
+      "chars": 394
+    },
+    {
+      "i": 16,
+      "id": "proj-179",
+      "form": "projects",
+      "filing_date": "2026-07-22",
+      "section": "Greenville, South Carolina gas turbine facility upgrade",
+      "accession": "",
+      "source": "projects",
+      "chars": 384
+    },
+    {
+      "i": 17,
+      "id": "proj-150",
+      "form": "projects",
+      "filing_date": "2026-07-30",
+      "section": "natural gas turbine upgrade projects",
+      "accession": "",
+      "source": "projects",
+      "chars": 375
+    },
+    {
+      "i": 18,
+      "id": "proj-149",
+      "form": "projects",
+      "filing_date": "2026-07-30",
+      "section": "Franklin and Wansley natural gas facilities turbine upgrades",
+      "accession": "",
+      "source": "projects",
+      "chars": 308
+    },
+    {
+      "i": 19,
+      "id": "proj-148",
+      "form": "projects",
+      "filing_date": "2026-07-30",
+      "section": "Wansley Natural Gas Facility Upgrade",
+      "accession": "",
+      "source": "projects",
+      "chars": 598
+    },
+    {
+      "i": 20,
+      "id": "proj-147",
+      "form": "projects",
+      "filing_date": "2026-07-30",
+      "section": "Franklin Natural Gas Facility Upgrade",
+      "accession": "",
+      "source": "projects",
+      "chars": 597
+    },
+    {
+      "i": 21,
+      "id": "proj-141",
+      "form": "projects",
+      "filing_date": "2026-07-30",
+      "section": "Nicor Gas capital investments",
+      "accession": "",
+      "source": "projects",
+      "chars": 429
+    },
+    {
+      "i": 22,
+      "id": "proj-15",
+      "form": "projects",
+      "filing_date": "Sun, 30 Au",
+      "section": "Thisvi combined-cycle power plant upgrade",
+      "accession": "",
+      "source": "projects",
+      "chars": 282
+    },
+    {
+      "i": 23,
+      "id": "proj-4",
+      "form": "projects",
+      "filing_date": "Wed, 16 Se",
+      "section": "FlameSheet retrofit on GE 7F.03 gas turbine",
+      "accession": "",
+      "source": "projects",
+      "chars": 276
+    },
+    {
+      "i": 24,
+      "id": "proj-3",
+      "form": "projects",
+      "filing_date": "Wed, 16 Se",
+      "section": "GT26 Upgrades",
+      "accession": "",
+      "source": "projects",
+      "chars": 298
+    },
+    {
+      "i": 25,
+      "id": "proj-1",
+      "form": "projects",
+      "filing_date": "Wed, 16 Se",
+      "section": "Coryton combined-cycle plant",
+      "accession": "",
+      "source": "projects",
+      "chars": 263
+    },
+    {
+      "i": 26,
+      "id": 463206,
+      "form": "NEWS",
+      "filing_date": "2026-09-19",
+      "section": "datacenter_demand",
+      "accession": "src:3523",
+      "source": "chunks_like",
+      "chars": 1417
+    },
+    {
+      "i": 27,
+      "id": 463205,
+      "form": "NEWS",
+      "filing_date": "2026-09-19",
+      "section": "datacenter_demand",
+      "accession": "src:3523",
+      "source": "chunks_like",
+      "chars": 1467
+    },
+    {
+      "i": 28,
+      "id": 246793,
+      "form": "NEWS",
+      "filing_date": "2026-09-19",
+      "section": "gas_price_fuel",
+      "accession": "src:2758",
+      "source": "chunks_like",
+      "chars": 1420
+    },
+    {
+      "i": 29,
+      "id": 230647,
+      "form": "NEWS",
+      "filing_date": "2026-09-19",
+      "section": "grid_electrification",
+      "accession": "src:1269",
+      "source": "chunks_like",
+      "chars": 1413
+    },
+    {
+      "i": 30,
+      "id": 219569,
+      "form": "NEWS",
+      "filing_date": "2026-09-19",
+      "section": "datacenter_demand",
+      "accession": "src:414",
+      "source": "chunks_like",
+      "chars": 1375
+    },
+    {
+      "i": 31,
+      "id": 466992,
+      "form": "NEWS",
+      "filing_date": "2026-09-18",
+      "section": "offshore_wind",
+      "accession": "src:3649",
+      "source": "chunks_like",
+      "chars": 1500
+    },
+    {
+      "i": 32,
+      "id": 243284,
+      "form": "NEWS",
+      "filing_date": "2026-09-18",
+      "section": "services",
+      "accession": "src:2369",
+      "source": "chunks_like",
+      "chars": 1424
+    },
+    {
+      "i": 33,
+      "id": 243222,
+      "form": "NEWS",
+      "filing_date": "2026-09-18",
+      "section": "services",
+      "accession": "src:2351",
+      "source": "chunks_like",
+      "chars": 1444
+    },
+    {
+      "i": 34,
+      "id": 243221,
+      "form": "NEWS",
+      "filing_date": "2026-09-18",
+      "section": "services",
+      "accession": "src:2351",
+      "source": "chunks_like",
+      "chars": 1464
+    },
+    {
+      "i": 35,
+      "id": 235585,
+      "form": "NEWS",
+      "filing_date": "2026-09-18",
+      "section": "competition",
+      "accession": "src:1773",
+      "source": "chunks_like",
+      "chars": 1453
+    },
+    {
+      "i": 36,
+      "id": 235584,
+      "form": "NEWS",
+      "filing_date": "2026-09-18",
+      "section": "competition",
+      "accession": "src:1773",
+      "source": "chunks_like",
+      "chars": 1341
+    },
+    {
+      "i": 37,
+      "id": 220825,
+      "form": "NEWS",
+      "filing_date": "2026-09-18",
+      "section": "datacenter_demand",
+      "accession": "src:482",
+      "source": "chunks_like",
+      "chars": 1431
+    },
+    {
+      "i": 38,
+      "id": "bq-6929",
+      "form": "10-Q",
+      "filing_date": "2025-04-23",
+      "section": "contract_liabilities",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 123
+    },
+    {
+      "i": 39,
+      "id": "bq-6928",
+      "form": "10-Q",
+      "filing_date": "2025-04-23",
+      "section": "contract_liabilities",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 121
+    },
+    {
+      "i": 40,
+      "id": "bq-6927",
+      "form": "10-Q",
+      "filing_date": "2025-04-23",
+      "section": "contract_liabilities",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 125
+    }
+  ]
+}

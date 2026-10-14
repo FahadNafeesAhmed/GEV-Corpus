@@ -1,0 +1,23 @@
+{
+  "sec_user_agent": "Your Name your.name@example.com",
+  "sec_requests_per_second": 5.0,
+  "max_filing_bytes": 40000000,
+  "chunk_chars": 1500,
+  "chunk_overlap": 200,
+  "forms_full_text": [
+    "10-K",
+    "10-Q",
+    "8-K",
+    "DEF 14A",
+    "DEFA14A",
+    "S-1",
+    "S-1/A",
+    "424B3",
+    "424B5",
+    "10-12B",
+    "10-12B/A",
+    "ARS",
+    "11-K",
+    "SD"
+  ]
+}

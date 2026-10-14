@@ -1,0 +1,24 @@
+{
+  "_comment": "Named or widely reported GE Vernova customers and counterparties that file with the SEC. Their filings are pulled through the EDGAR path (with exhibits) and run through the `project` extractor. Tickers only - CIKs are resolved at run time from SEC's company_tickers.json so nothing here can go stale. Start narrow: named customers, not every utility.",
+  "since": "2024-01-01",
+  "customers": [
+    {"ticker": "NEE",  "why": "NextEra - largest US utility/renewables owner; gas turbine and wind counterparty"},
+    {"ticker": "DUK",  "why": "Duke Energy - large combined-cycle build program, named 7HA customer"},
+    {"ticker": "D",    "why": "Dominion - data-center-driven load growth in Virginia, gas additions"},
+    {"ticker": "SO",   "why": "Southern Company - Georgia Power gas capacity additions"},
+    {"ticker": "ETR",  "why": "Entergy - Louisiana/Mississippi gas plants tied to data centers"},
+    {"ticker": "AEP",  "why": "American Electric Power - large-load agreements, gas capacity"},
+    {"ticker": "XEL",  "why": "Xcel Energy - gas peakers and combined cycle in IRPs"},
+    {"ticker": "VST",  "why": "Vistra - IPP with gas fleet and data-center deals"},
+    {"ticker": "NRG",  "why": "NRG - announced GE Vernova turbine reservations for new gas plants"},
+    {"ticker": "CEG",  "why": "Constellation - large-load contracts, gas and nuclear fleet"},
+    {"ticker": "TLN",  "why": "Talen - data-center power deals"},
+    {"ticker": "CVX",  "why": "Chevron - joint venture with GE Vernova and Engine No. 1 for data-center gas power"},
+    {"ticker": "WMB",  "why": "Williams - behind-the-meter gas power projects (Socrates)"},
+    {"ticker": "KMI",  "why": "Kinder Morgan - gas infrastructure serving new generation"},
+    {"ticker": "MSFT", "why": "Microsoft - hyperscaler power procurement disclosures"},
+    {"ticker": "META", "why": "Meta - Louisiana data center with new gas generation"},
+    {"ticker": "GOOGL","why": "Alphabet - power procurement, occasional turbine references"},
+    {"ticker": "AMZN", "why": "Amazon - data-center power, nuclear and gas deals"}
+  ]
+}

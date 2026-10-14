@@ -1,0 +1,396 @@
+{
+  "disclaimer": "AI initial research notes only — not a competition submission",
+  "question": "deposit_terms",
+  "title": "SRA / deposit / refund terms (primary filings)",
+  "model": "qwen3:8b",
+  "db": "data\\gev.db",
+  "ts": "2026-09-21T16:30:36.091033+00:00",
+  "elapsed_s": 36.96,
+  "n_evidence_hits": 27,
+  "deterministic_flags": {
+    "mentions_slot_reservation": true,
+    "mentions_down_payment": true,
+    "mentions_deposit": false,
+    "mentions_refund": false,
+    "mentions_nonrefundable": false,
+    "mentions_may_not_place_orders": false
+  },
+  "extraction": {
+    "claims": [
+      {
+        "claim": "GE Vernova's contract liabilities and deferred income increased due to down payments on orders and slot reservation agreements (SRA) at Power and Electrification.",
+        "quote": "contract liabilities and current deferred income of $1.9 billion, driven by down payments on orders and slot reservation agreements at Power, and down payments at Electrification",
+        "supports": "Evidence [1][2][6]",
+        "confidence": 90,
+        "verified": false,
+        "reject_reason": "quote_not_in_evidence"
+      },
+      {
+        "claim": "Slot reservation agreements (SRA) contributed to contract liabilities and deferred income, with Power and Electrification being key segments.",
+        "quote": "contract liabilities and current deferred income of $13.7 billion, driven by down payments on orders and slot reservation agreements at Power, and down payments at Electrification",
+        "supports": "Evidence [2]",
+        "confidence": 90,
+        "verified": true
+      },
+      {
+        "claim": "Contract liabilities and deferred income increased by $14.088 billion in the six months ended June 30, 2026, due to new collections exceeding revenue recognition.",
+        "quote": "Contract liabilities and deferred income increase d $14,088 million in the six months ended June 30, 2026 primarily due to new collections received in excess of revenue recognition",
+        "supports": "Evidence [5]",
+        "confidence": 90,
+        "verified": true
+      },
+      {
+        "claim": "GE Vernova's contract liabilities and deferred income totaled $39.944 billion as of June 30, 2026, with Power accounting for $27.679 billion.",
+        "quote": "contract liabilities and current deferred income $27,679 $9,113 $3,150 $39,944",
+        "supports": "Evidence [4]",
+        "confidence": 95,
+        "verified": true
+      },
+      {
+        "claim": "Contract liabilities and deferred income were $25.774 billion as of December 31, 2025, with Power accounting for $16.527 billion.",
+        "quote": "contract liabilities and current deferred income $16,527 $6,449 $2,796 $25,772",
+        "supports": "Evidence [4]",
+        "confidence": 95,
+        "verified": false,
+        "reject_reason": "quote_not_in_evidence"
+      },
+      {
+        "claim": "GE Vernova's remaining performance obligation (RPO) related to GE credit support obligations was estimated at $12 billion as of June 30, 2025.",
+        "quote": "we estimated GE Vernova RPO and other obligations that relate to GE credit support to be approximately $12 billion",
+        "supports": "Evidence [24]",
+        "confidence": 90,
+        "verified": true
+      }
+    ],
+    "unresolved": [
+      "The evidence does not specify refundability terms for customer deposits, down payments, or slot reservation agreements (SRA).",
+      "No information is provided about forfeiture conditions for unfulfilled SRA obligations."
+    ],
+    "claims_verified": [
+      {
+        "claim": "Slot reservation agreements (SRA) contributed to contract liabilities and deferred income, with Power and Electrification being key segments.",
+        "quote": "contract liabilities and current deferred income of $13.7 billion, driven by down payments on orders and slot reservation agreements at Power, and down payments at Electrification",
+        "supports": "Evidence [2]",
+        "confidence": 90,
+        "verified": true
+      },
+      {
+        "claim": "Contract liabilities and deferred income increased by $14.088 billion in the six months ended June 30, 2026, due to new collections exceeding revenue recognition.",
+        "quote": "Contract liabilities and deferred income increase d $14,088 million in the six months ended June 30, 2026 primarily due to new collections received in excess of revenue recognition",
+        "supports": "Evidence [5]",
+        "confidence": 90,
+        "verified": true
+      },
+      {
+        "claim": "GE Vernova's contract liabilities and deferred income totaled $39.944 billion as of June 30, 2026, with Power accounting for $27.679 billion.",
+        "quote": "contract liabilities and current deferred income $27,679 $9,113 $3,150 $39,944",
+        "supports": "Evidence [4]",
+        "confidence": 95,
+        "verified": true
+      },
+      {
+        "claim": "GE Vernova's remaining performance obligation (RPO) related to GE credit support obligations was estimated at $12 billion as of June 30, 2025.",
+        "quote": "we estimated GE Vernova RPO and other obligations that relate to GE credit support to be approximately $12 billion",
+        "supports": "Evidence [24]",
+        "confidence": 90,
+        "verified": true
+      }
+    ],
+    "claims_rejected": [
+      {
+        "claim": "GE Vernova's contract liabilities and deferred income increased due to down payments on orders and slot reservation agreements (SRA) at Power and Electrification.",
+        "quote": "contract liabilities and current deferred income of $1.9 billion, driven by down payments on orders and slot reservation agreements at Power, and down payments at Electrification",
+        "supports": "Evidence [1][2][6]",
+        "confidence": 90,
+        "verified": false,
+        "reject_reason": "quote_not_in_evidence"
+      },
+      {
+        "claim": "Contract liabilities and deferred income were $25.774 billion as of December 31, 2025, with Power accounting for $16.527 billion.",
+        "quote": "contract liabilities and current deferred income $16,527 $6,449 $2,796 $25,772",
+        "supports": "Evidence [4]",
+        "confidence": 95,
+        "verified": false,
+        "reject_reason": "quote_not_in_evidence"
+      }
+    ],
+    "audit": {
+      "n_claims_in": 6,
+      "n_verified": 4,
+      "n_rejected": 2
+    }
+  },
+  "evidence_index": [
+    {
+      "i": 1,
+      "id": 5751,
+      "form": "10-Q",
+      "filing_date": "2026-07-22",
+      "section": "Item 2 MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF",
+      "accession": "0001996810-26-000148",
+      "source": "chunks_like",
+      "chars": 1155
+    },
+    {
+      "i": 2,
+      "id": 5750,
+      "form": "10-Q",
+      "filing_date": "2026-07-22",
+      "section": "Item 2 MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF",
+      "accession": "0001996810-26-000148",
+      "source": "chunks_like",
+      "chars": 1243
+    },
+    {
+      "i": 3,
+      "id": 5748,
+      "form": "10-Q",
+      "filing_date": "2026-07-22",
+      "section": "Item 2 MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF",
+      "accession": "0001996810-26-000148",
+      "source": "chunks_like",
+      "chars": 1500
+    },
+    {
+      "i": 4,
+      "id": 5682,
+      "form": "10-Q",
+      "filing_date": "2026-07-22",
+      "section": "Item 1 FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA.",
+      "accession": "0001996810-26-000148",
+      "source": "chunks_like",
+      "chars": 1500
+    },
+    {
+      "i": 5,
+      "id": 5681,
+      "form": "10-Q",
+      "filing_date": "2026-07-22",
+      "section": "Item 1 FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA.",
+      "accession": "0001996810-26-000148",
+      "source": "chunks_like",
+      "chars": 1498
+    },
+    {
+      "i": 6,
+      "id": 5680,
+      "form": "10-Q",
+      "filing_date": "2026-07-22",
+      "section": "Item 1 FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA.",
+      "accession": "0001996810-26-000148",
+      "source": "chunks_like",
+      "chars": 1161
+    },
+    {
+      "i": 7,
+      "id": 5661,
+      "form": "10-Q",
+      "filing_date": "2026-07-22",
+      "section": "Item 1 FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA.",
+      "accession": "0001996810-26-000148",
+      "source": "chunks_like",
+      "chars": 1500
+    },
+    {
+      "i": 8,
+      "id": 5659,
+      "form": "10-Q",
+      "filing_date": "2026-07-22",
+      "section": "Item 1 FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA.",
+      "accession": "0001996810-26-000148",
+      "source": "chunks_like",
+      "chars": 1499
+    },
+    {
+      "i": 9,
+      "id": 5649,
+      "form": "10-Q",
+      "filing_date": "2026-07-22",
+      "section": "Item 1 Financial Statements and Supplementary Data",
+      "accession": "0001996810-26-000148",
+      "source": "chunks_like",
+      "chars": 1430
+    },
+    {
+      "i": 10,
+      "id": 13715,
+      "form": "10-Q",
+      "filing_date": "2026-04-22",
+      "section": "Item 2 MANAGEMENT’S",
+      "accession": "0001996810-26-000064",
+      "source": "chunks_like",
+      "chars": 1227
+    },
+    {
+      "i": 11,
+      "id": 13714,
+      "form": "10-Q",
+      "filing_date": "2026-04-22",
+      "section": "Item 2 MANAGEMENT’S",
+      "accession": "0001996810-26-000064",
+      "source": "chunks_like",
+      "chars": 1257
+    },
+    {
+      "i": 12,
+      "id": 13712,
+      "form": "10-Q",
+      "filing_date": "2026-04-22",
+      "section": "Item 2 MANAGEMENT’S",
+      "accession": "0001996810-26-000064",
+      "source": "chunks_like",
+      "chars": 1500
+    },
+    {
+      "i": 13,
+      "id": "bq-6929",
+      "form": "10-Q",
+      "filing_date": "2025-04-23",
+      "section": "contract_liabilities",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 123
+    },
+    {
+      "i": 14,
+      "id": "bq-6928",
+      "form": "10-Q",
+      "filing_date": "2025-04-23",
+      "section": "contract_liabilities",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 121
+    },
+    {
+      "i": 15,
+      "id": "bq-6927",
+      "form": "10-Q",
+      "filing_date": "2025-04-23",
+      "section": "contract_liabilities",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 125
+    },
+    {
+      "i": 16,
+      "id": "bq-6926",
+      "form": "10-Q",
+      "filing_date": "2025-04-23",
+      "section": "contract_liabilities",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 123
+    },
+    {
+      "i": 17,
+      "id": "bq-6925",
+      "form": "10-Q",
+      "filing_date": "2025-04-23",
+      "section": "contract_liabilities",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 134
+    },
+    {
+      "i": 18,
+      "id": "bq-6909",
+      "form": "8-K/EX",
+      "filing_date": "2025-04-23",
+      "section": "reservation_gw",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 100
+    },
+    {
+      "i": 19,
+      "id": "bq-6908",
+      "form": "8-K/EX",
+      "filing_date": "2025-04-23",
+      "section": "equipment_backlog",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 184
+    },
+    {
+      "i": 20,
+      "id": "bq-6906",
+      "form": "8-K/EX",
+      "filing_date": "2025-04-23",
+      "section": "working_capital",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 165
+    },
+    {
+      "i": 21,
+      "id": "bq-6901",
+      "form": "8-K/EX",
+      "filing_date": "2025-04-23",
+      "section": "orders_value",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 168
+    },
+    {
+      "i": 22,
+      "id": "bq-6900",
+      "form": "8-K/EX",
+      "filing_date": "2025-04-23",
+      "section": "orders_value",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 168
+    },
+    {
+      "i": 23,
+      "id": "bq-6889",
+      "form": "10-Q",
+      "filing_date": "2025-07-23",
+      "section": "contract_liabilities",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 183
+    },
+    {
+      "i": 24,
+      "id": "bq-6888",
+      "form": "10-Q",
+      "filing_date": "2025-07-23",
+      "section": "contract_liabilities",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 167
+    },
+    {
+      "i": 25,
+      "id": "bq-6866",
+      "form": "10-Q",
+      "filing_date": "2025-07-23",
+      "section": "contract_liabilities",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 99
+    },
+    {
+      "i": 26,
+      "id": "bq-6863",
+      "form": "10-Q",
+      "filing_date": "2025-07-23",
+      "section": "contract_liabilities",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 122
+    },
+    {
+      "i": 27,
+      "id": "bq-6861",
+      "form": "10-Q",
+      "filing_date": "2025-07-23",
+      "section": "contract_liabilities",
+      "accession": "",
+      "source": "backlog_quarterly",
+      "chars": 138
+    }
+  ],
+  "working_verdict": "PRIMARY: down payments on orders AND slot reservations drive contract liabilities / FCF. NON-REFUNDABLE terms NOT found in this retrieval. Risk factor: SRAs may not convert to orders."
+}

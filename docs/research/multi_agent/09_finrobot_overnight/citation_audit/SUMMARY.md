@@ -1,0 +1,54 @@
+# Citation audit summary
+
+| Task | Rows | 2 sources verified | 1 | 0 | Flagged |
+|---|---|---|---|---|---|
+| D01_fy27_build_A | 23 | 2 | 2 | 19 | 21 |
+| D01_fy27_build_B | 15 | 0 | 1 | 14 | 27 |
+| D02_steelman_long | 18 | 0 | 3 | 15 | 21 |
+| D03_steelman_short | 29 | 0 | 5 | 24 | 41 |
+| D04_jan_guide_A | 16 | 0 | 0 | 16 | 29 |
+| D04_jan_guide_B | 24 | 0 | 2 | 22 | 42 |
+| D05_multiple | 14 | 0 | 0 | 14 | 28 |
+| D06_power_split | 16 | 0 | 1 | 15 | 27 |
+| D07_q3_preview | 34 | 0 | 3 | 31 | 65 |
+| D08_fact_audit | 34 | 0 | 1 | 33 | 61 |
+| D09_judge_prep | 26 | 0 | 0 | 26 | 45 |
+| D10_synthesis | 34 | 1 | 9 | 24 | 48 |
+| E01_power_split_B | 15 | 0 | 0 | 15 | 29 |
+| E02_horizon_trade | 33 | 0 | 1 | 32 | 57 |
+| E03_model_inputs | 110 | 0 | 1 | 109 | 213 |
+| E04_incentives | 10 | 1 | 1 | 8 | 17 |
+| E05_redteam_short | 21 | 0 | 1 | 20 | 39 |
+| E06_redteam_long | 17 | 1 | 1 | 15 | 22 |
+| E07_catalyst_calendar | 33 | 0 | 0 | 33 | 61 |
+| E08_dockets | 16 | 0 | 0 | 16 | 25 |
+| F01_final_synthesis | 35 | 3 | 6 | 26 | 50 |
+| P1_research | 0 | 0 | 0 | 0 | 0 |
+| P2_dcf | 0 | 0 | 0 | 0 | 0 |
+| P3_comps | 0 | 0 | 0 | 0 | 0 |
+| P4_earnings | 0 | 0 | 0 | 0 | 0 |
+| P5_ic_memo | 0 | 0 | 0 | 0 | 0 |
+| P6_competitors | 0 | 0 | 0 | 0 | 0 |
+| P7_risk | 0 | 0 | 0 | 0 | 0 |
+| R01_redteam_final | 39 | 1 | 2 | 36 | 71 |
+| R02_top20_verify | 27 | 2 | 8 | 17 | 36 |
+| R03_exhibit_data | 16 | 0 | 2 | 14 | 26 |
+| R04_evidence_map_short | 52 | 0 | 1 | 51 | 98 |
+| R05_evidence_map_long | 48 | 0 | 1 | 47 | 89 |
+| R06_qa_short_refined | 25 | 0 | 0 | 25 | 50 |
+| R07_kill_rules | 18 | 0 | 3 | 15 | 29 |
+| R08_consensus_drift | 27 | 0 | 0 | 27 | 54 |
+| V01_neutral_A | 13 | 0 | 1 | 12 | 17 |
+| V02_neutral_B | 13 | 0 | 1 | 12 | 18 |
+| V03_anchor_long | 15 | 0 | 1 | 14 | 21 |
+| V04_anchor_short | 15 | 0 | 2 | 13 | 27 |
+| V05_cold_start | 15 | 1 | 1 | 13 | 27 |
+| V06_pm_judge | 16 | 1 | 2 | 13 | 26 |
+| V07_outside_view | 18 | 0 | 1 | 17 | 28 |
+| V08_premortem | 15 | 0 | 1 | 14 | 22 |
+| V09_numbers_only | 17 | 0 | 1 | 16 | 22 |
+| V10_compare | 10 | 0 | 0 | 10 | 18 |
+| V11_horizon_3m | 14 | 0 | 3 | 11 | 18 |
+| V12_horizon_12m | 17 | 1 | 5 | 11 | 20 |
+| V13_neutral_C | 16 | 0 | 3 | 13 | 24 |
+| **total** | 1019 | 14 | 77 | 928 | 1709 |

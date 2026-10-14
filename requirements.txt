@@ -1,0 +1,29 @@
+# Pipeline
+requests
+beautifulsoup4
+trafilatura
+feedparser
+ddgs
+edgartools
+pandas
+numpy
+openpyxl
+xlrd
+pyxlsb
+pdfplumber
+pypdf
+youtube-transcript-api
+yt-dlp
+
+# Pages, charts and the thesis file
+matplotlib
+markdown
+
+# Windows-only helpers (Excel recalculation, Word rendering)
+pywin32; sys_platform == "win32"
+
+# Optional: browse the public database
+# datasette
+
+# The extraction and embedding stages talk to a local Ollama server over HTTP:
+# install Ollama separately and pull qwen3:8b and nomic-embed-text.

@@ -1,0 +1,29 @@
+{
+  "_comment": "Tiered coverage. tier A = full depth incl. LLM extraction of every chunk; tier B = full ingest, extraction limited to high-value sections; tier C = structured data only (XBRL + prices), no filing text.",
+  "since": "2021-01-01",
+  "tickers": [
+    {"ticker": "GEV",  "cik": "0001996810", "name": "GE Vernova Inc.",              "tier": "A", "role": "subject"},
+
+    {"ticker": "ABNB", "cik": "0001559720", "name": "Airbnb, Inc.",                 "tier": "B", "role": "competition-universe"},
+    {"ticker": "ADBE", "cik": "0000796343", "name": "Adobe Inc.",                   "tier": "B", "role": "competition-universe"},
+    {"ticker": "CPRT", "cik": "0000900075", "name": "Copart Inc.",                  "tier": "B", "role": "competition-universe"},
+    {"ticker": "NCLH", "cik": "0001513761", "name": "Norwegian Cruise Line Hldgs",  "tier": "B", "role": "competition-universe"},
+    {"ticker": "NKE",  "cik": "0000320187", "name": "Nike, Inc.",                   "tier": "B", "role": "competition-universe"},
+    {"ticker": "SBUX", "cik": "0000829224", "name": "Starbucks Corp.",              "tier": "B", "role": "competition-universe"},
+    {"ticker": "SPOT", "cik": "0001639920", "name": "Spotify Technology S.A.",      "tier": "B", "role": "competition-universe"},
+
+    {"ticker": "ETN",  "cik": "0001551182", "name": "Eaton Corp plc",               "tier": "C", "role": "peer-electrical"},
+    {"ticker": "PWR",  "cik": "0001050915", "name": "Quanta Services, Inc.",        "tier": "C", "role": "peer-grid-services"},
+    {"ticker": "VRT",  "cik": "0001674101", "name": "Vertiv Holdings Co",           "tier": "C", "role": "peer-datacenter-power"},
+    {"ticker": "EMR",  "cik": "0000032604", "name": "Emerson Electric Co.",         "tier": "C", "role": "peer-automation"},
+    {"ticker": "HUBB", "cik": "0000048898", "name": "Hubbell Inc.",                 "tier": "C", "role": "peer-electrical"},
+    {"ticker": "AME",  "cik": "0001037868", "name": "Ametek Inc.",                  "tier": "C", "role": "peer-industrial"},
+    {"ticker": "ROK",  "cik": "0001024478", "name": "Rockwell Automation, Inc.",    "tier": "C", "role": "peer-automation"},
+    {"ticker": "BE",   "cik": "0001664703", "name": "Bloom Energy Corp",            "tier": "C", "role": "peer-distributed-power"},
+    {"ticker": "NEE",  "cik": "0000753308", "name": "NextEra Energy Inc.",          "tier": "C", "role": "peer-utility-customer"}
+  ],
+  "_not_in_edgar": {
+    "_comment": "GE Vernova's closest gas-turbine and wind competitors are foreign private issuers or unlisted, so they have no comparable EDGAR filings. Do not claim comps coverage is complete without noting this.",
+    "missing": ["Siemens Energy AG", "Vestas Wind Systems A/S", "Mitsubishi Heavy Industries", "Hitachi Energy", "Schneider Electric SE"]
+  }
+}

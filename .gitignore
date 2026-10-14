@@ -1,0 +1,22 @@
+# The database is distributed separately; raw downloads are reproducible.
+data/*.db
+data/*.db-wal
+data/*.db-shm
+raw/
+
+# Local configuration carries a real contact e-mail for the SEC user agent.
+config/config.json
+
+# Licensed data never enters the repository.
+data/bloomberg/
+data/model/
+
+__pycache__/
+*.py[cod]
+*.log
+*.jsonl
+.env
+.venv/
+venv/
+.DS_Store
+Thumbs.db
