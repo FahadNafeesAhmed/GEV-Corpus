@@ -5,6 +5,8 @@
 [![Python 3.11](https://img.shields.io/badge/python-3.11-2b3d4f.svg)](requirements.txt)
 [![SQLite + FTS5](https://img.shields.io/badge/database-SQLite%20%2B%20FTS5-2b3d4f.svg)](data/README.md)
 
+**Live site:** [gev-research.pages.dev](https://gev-research.pages.dev), the filings-only financials page built from this corpus, with the research sections and the decision.
+
 A reproducible research corpus and analysis pipeline built around one question: **is GE Vernova (NYSE: GEV) mispriced over a three-to-twelve-month horizon?**
 
 It was built in two weeks, 19 September to 2 October 2026, for an intercollegiate stock pitch competition whose universe was eight US-listed names (ABNB, ADBE, CPRT, GEV, NCLH, NKE, SBUX, SPOT). The pitch itself, a two-page memo and an Excel model, is not published. Everything that fed it is: the pipeline, the database it produced, fourteen runs of research notes, and a scorecard on which the call is graded in public as each test date passes.
